@@ -1,0 +1,22 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.18.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "common": "workspace:^",
+    "date-fns": "^2.30.0"
+  }
+}
